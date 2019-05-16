@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Page</title>
+  </head>
+  <body>
+
+    <h1>Linux Commands</h1>
+    
+    <p></p>
+
+<table style="width:100%" >
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+    <th>Example Usage</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>desc</td>
+    <td>use</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>
+
+  </body>
+</html>

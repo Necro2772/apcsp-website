@@ -1,25 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Student Page</title>
+    <title>Linux Commands</title>
+    <style>
+    #commands {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    #commands td, #commands th{
+      border: 1px solid #000;
+      padding: 6px;
+    }
+    </style>
   </head>
   <body>
 
-    <h1>Page 2</h1>
-    
-    <p>More to come</p>
+    <h1>Linux Commands</h1>
 
-    <li>item1</li>
-
-<table style="width:100%" >
-  <tr>
-    <th>Row 1</th>
-    <th>Row 2</th>
-  </tr>
-  <tr>
-    <td>Desc</td>
-    <td>more</td>
-</table>
-
+    <table id="commands">
+      <tr>
+        <th>Command</th>
+        <th>Description</th>
+        <th>Example Usage</th>
+      </tr>
+      <tr>
+        <td>echo</td>
+        <td>Echo strings to standard output</td>
+        <td>echo file1</td>
+      </tr>
+      <tr>
+        <td>rm</td>
+        <td>Removes the file</td>
+        <td>rm file</td>
+      </tr>
+      <tr>
+        <td>ls</td>
+        <td>Lists contents of directory</td>
+        <td>ls</td>
+      </tr>
+      <tr>
+        <td>cp</td>
+        <td>Copy source file to destination</td>
+        <td>cp file1 directory1</td>
+      </tr>
+      <tr>
+        <td>man</td>
+        <td>Provides information on a command</td>
+        <td>man man</td>
+      </tr>
+      <tr>
+        <td>cat</td>
+        <td>Writes out file to output</td>
+        <td>cat file</td>
+      </tr>
+      <tr>
+        <td>more</td>
+        <td>Writes out file on screen at a time</td>
+        <td>more file</td>
+      </tr>
+      <tr>
+        <td>less</td>
+        <td>Writes out file in scrollable format</td>
+        <td>less file</td>
+      </tr>
+      <tr>
+        <td>uname</td>
+        <td>Print system information</td>
+        <td>uname</td>
+      </tr>
+      <tr>
+        <td>mkdir</td>
+        <td>Creates directory</td>
+        <td>mkdir directory</td>
+      </tr>
+    </table>
+    <a href="../">Home</a>
   </body>
 </html>
